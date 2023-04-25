@@ -18,6 +18,20 @@ Esto es una solucion al challenge "Encriptador" propuesto por [Alura Latam](http
 
 ## Las "llaves" de encriptación utilizadas son las siguientes:
 
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+```js
+const proudOfThisFunc = () => {
+  console.log('🎉')
+}
+```
+
 - La letra "e" es convertida para "enter" <br>
 - La letra "i" es convertida para "imes" <br>
 - La letra "a" es convertida para "ai" <br>
