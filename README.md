@@ -15,6 +15,7 @@ Esto es una solucion al challenge "Encriptador" propuesto por [Alura Latam](http
 - HTML <br>
 - CSS <br>
 - JavaScript
+- Mobile-first Workflow
 
 ## Las "llaves" de encriptación utilizadas son las siguientes:
 
