@@ -32,9 +32,9 @@ Esto es una solucion al challenge "Encriptador" propuesto por [Alura Latam](http
 
 - Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. 
 
--- Por ejemplo:
-"gato" => "gaitober"
-"gaitober" => "gato"
+- Por ejemplo:
+    * "gato" => "gaitober"
+    * "gaitober" => "gato"
 
 - La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones. <br>
 
