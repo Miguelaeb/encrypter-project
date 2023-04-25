@@ -8,9 +8,9 @@ Esto es una solucion al challenge "Encriptador" propuesto por ![Alura Latam](htt
 
 ## Tecnologias utilizadas
 
-HTML
-CSS
-JavaScript
+HTML <br>
+CSS <br>
+JavaScript 
 
 
 ### What I learned
