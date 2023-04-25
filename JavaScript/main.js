@@ -85,14 +85,12 @@ function convertir() {
 
     if (texto.trim() === "") {
         dollContainer.classList.remove("hide");
-        // dollContainer.style.display = "block";
         description1.classList.remove("hide");
         description2.classList.remove("hide");
         copyButtonContainer.classList.add("hide");
         textareaContainer.classList.add("hide");
     } else {
         dollContainer.classList.add("hide");
-        // dollContainer.style.display = "none";
         description1.classList.add("hide");
         description2.classList.add("hide");
         copyButtonContainer.classList.remove("hide");
@@ -101,13 +99,24 @@ function convertir() {
     }
 }
 
-function toggleDollContainer() {
+// Funcion para cambiar la propiedad display del elemento con la clase 
+// "doll__container" segun el tamaño del body y si hay texto para cifrar
 
-    if (window.innerWidth < 1000 && texto.trim() === "") {
-        dollContainer.style.display = "none";
-    }  if (window.innerWidth > 1000 && texto.trim() === "") {
-        dollContainer.style.display = "none";
-    }  
+function cambiarDisplayDollContainer() {
+    const body = document.body;
+    const dollContainer = document.querySelector('.doll__container');
+    const texto = document.querySelector('#texto');
+
+    if (body.offsetWidth > 1000 && !texto.value.trim()) {
+        dollContainer.style.display = 'block';
+    } else {
+        dollContainer.style.display = 'none';
+    }
+
+    if (texto.value.trim()) {
+        dollContainer.style.display = 'none';
+    }
 }
 
-window.addEventListener("resize", toggleDollContainer);
+window.addEventListener('resize', cambiarDisplayDollContainer);
+texto.addEventListener('input', cambiarDisplayDollContainer);
