@@ -17,4 +17,4 @@ JavaScript
 - Linkedin - [Miguel Evangelista](https://www.linkedin.com/in/miguel-evangelista-8458b9150/)
 - gitHub - [Miguelaeb](https://www.frontendmentor.io/profile/yourusername)
 - Instagram - [@Miguel_aeb](https://www.twitter.com/yourusername)
-- Frontend Mentor - [@@Miguelaeb](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Miguelaeb](https://www.frontendmentor.io/profile/yourusername)
