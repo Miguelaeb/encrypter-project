@@ -12,7 +12,7 @@ HTML <br>
 CSS <br>
 JavaScript
 
-## Requisitos del challenge
+## Requisitos 
 
 Funciona solo con letras minúsculas. <br>
 No pueden ser utilizados letras con acentos ni caracteres especiales. <br>
