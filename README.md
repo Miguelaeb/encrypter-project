@@ -32,9 +32,7 @@ const proudOfThisFunc = () => {
   console.log('🎉')
 }
 ```
-
-
-## Author
+## Autor
 
 - Linkedin - [Miguel Evangelista](https://www.linkedin.com/in/miguel-evangelista-8458b9150/)
 - gitHub - [Miguelaeb](https://www.frontendmentor.io/profile/yourusername)
