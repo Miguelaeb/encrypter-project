@@ -1,48 +1,4 @@
-const body = document.querySelector('body');
-const dollContainer = document.querySelector('.doll__container');
-const textElement = document.querySelector('#texto');
-const description1 = document.querySelector('.description__1');
-const description2 = document.querySelector('.description__2');
-const textareaContainer = document.querySelector('.textarea__container');
-const copyButtonContainer = document.querySelector('.copy__button__container');
-
-//Función que maneja los cambios al redimensionar la ventana
-function resizeHandler() {
-  if (body.clientWidth > 1000) {
-    dollContainer.style.display = 'block';
-  } else {
-    dollContainer.style.display = 'none';
-  }
-}
-
-function hideDollContainer() {
-    dollContainer.style.display = 'none';
-    textElement.removeEventListener('click', textClickHandler);
-  }
-
-//Función que maneja los cambios al hacer click en el elemento con id "texto"
-function textClickHandler() {
-    description1.classList.add('hide');
-    description2.classList.add('hide');
-    textareaContainer.classList.remove('hide');
-    copyButtonContainer.classList.remove('hide');
-    // dollContainer.style.display = 'none'; 
-    hideDollContainer();
-  }
-  
-//Asignar los eventos necesarios
-window.addEventListener('resize', resizeHandler);
-textElement.addEventListener('click', textClickHandler);
-
-//Manejar el estado inicial de la página
-resizeHandler();
-description1.classList.remove('hide');
-description2.classList.remove('hide');
-textareaContainer.classList.add('hide');
-copyButtonContainer.classList.add('hide');
-
-
-// *Encriptation stars  
+// *Encriptation star
 
 var opcion = "";
 
@@ -60,20 +16,14 @@ function setOption(valor) {
     convertir();
 }
 
-function resizeHandler() {
-    if (body.clientWidth > 1000 && dollContainer.style.display !== 'none') {
-      dollContainer.style.display = 'block';
-    } else {
-      dollContainer.style.display = 'none';
-    }
-  }
-
 function convertir() {
     var texto = document.getElementById("texto").value.toLowerCase();
     var resultado = "";
 
-    // Eliminar letras con acentos y caracteres no permitidos
-    texto = texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9 ]/g, "");
+    texto = texto
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9 ]/g, "");
 
     if (opcion === "cifrar") {
         for (var i = 0; i < texto.length; i++) {
@@ -116,13 +66,48 @@ function convertir() {
         }
     }
 
+    var copyButton = document.querySelector(".copy__button");
+    copyButton.addEventListener("click", function () {
+        var resultadoInput = document.getElementById("resultado");
+        resultadoInput.select();
+        document.execCommand("copy");
+    });
+
     document.getElementById("resultado").value = resultado;
+
+    // Agregar o quitar la clase "hide" según si hay texto en el elemento con el id "texto"
+    var dollContainer = document.querySelector(".doll__container");
+    var description1 = document.querySelector(".description__1");
+    var description2 = document.querySelector(".description__2");
+    var copyButtonContainer = document.querySelector(".copy__button__container");
+    var textareaContainer = document.querySelector(".textarea__container");
+    var textoInput = document.getElementById("texto");
+
+    if (texto.trim() === "") {
+        dollContainer.classList.remove("hide");
+        // dollContainer.style.display = "block";
+        description1.classList.remove("hide");
+        description2.classList.remove("hide");
+        copyButtonContainer.classList.add("hide");
+        textareaContainer.classList.add("hide");
+    } else {
+        dollContainer.classList.add("hide");
+        // dollContainer.style.display = "none";
+        description1.classList.add("hide");
+        description2.classList.add("hide");
+        copyButtonContainer.classList.remove("hide");
+        textareaContainer.classList.remove("hide");
+        textoInput.classList.remove("hide");
+    }
 }
 
+function toggleDollContainer() {
 
-function copiar() {
-    var resultado = document.getElementById("resultado");
-    resultado.select();
-    document.execCommand("copy");
-    alert("El texto ha sido copiado");
+    if (window.innerWidth < 1000 && texto.trim() === "") {
+        dollContainer.style.display = "none";
+    }  if (window.innerWidth > 1000 && texto.trim() === "") {
+        dollContainer.style.display = "none";
+    }  
 }
+
+window.addEventListener("resize", toggleDollContainer);

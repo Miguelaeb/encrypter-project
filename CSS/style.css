@@ -75,25 +75,25 @@ textarea:focus {
     cursor: pointer;
 }
 
-.encriptar__button {
+.encriptar__button,
+.desencriptar__button {
     color: #fff;
     background-color: #0a3871;
 }
 
-.encriptar__button:hover {
+.encriptar__button:hover, 
+.desencriptar__button:hover {
     color: #0a3871;
     background-color: #f3f5fc;
     border: solid 1px #0a3871;
 }
 
-.desencriptar__button,
 .copy__button {
     color: #0a3871;
     background-color: #f3f5fc;
     border: solid 1px #0a3871;
 }
 
-.desencriptar__button:hover,
 .copy__button:hover {
     color: #fff;
     background-color: #0a3871;
