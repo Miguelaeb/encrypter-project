@@ -1,6 +1,6 @@
 # Decodificador de texto con JavaScript
 
-Esto es una solucion al challenge "Encriptador" propuesto por ![Alura Latam](https://www.aluracursos.com/)
+Esto es una solucion al challenge "Encriptador" propuesto por [Alura Latam](https://www.aluracursos.com/)
 
 ### Vista previa del proyecto
 
