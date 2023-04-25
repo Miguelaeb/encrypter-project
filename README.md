@@ -26,4 +26,4 @@ Esto es una solucion al challenge "Encriptador" propuesto por [Alura Latam](http
 - Instagram - [@Miguel_aeb]([https://www.twitter.com/yourusername](https://instagram.com/miguel_aeb?igshid=YmMyMTA2M2Y=)
 - Frontend Mentor - [@Miguelaeb]([https://www.frontendmentor.io/profile/yourusername](https://www.frontendmentor.io/profile/Miguelaeb)
 
-GiHub - [Miguelaeb](https://github.com/Miguelaeb)
+- GiHub - [Miguelaeb](https://github.com/Miguelaeb)
