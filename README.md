@@ -22,6 +22,6 @@ Cuenta con un botón que copia el texto encriptado/desencriptado.
 ## Autor
 
 - Linkedin - [Miguel Evangelista](https://www.linkedin.com/in/miguel-evangelista-8458b9150/)
-- gitHub - [Miguelaeb](https://www.frontendmentor.io/profile/yourusername)
-- Instagram - [@Miguel_aeb](https://www.twitter.com/yourusername)
-- Frontend Mentor - [@@Miguelaeb](https://www.frontendmentor.io/profile/yourusername)
+- gitHub - [Miguelaeb]([https://www.frontendmentor.io/profile/yourusername](https://github.com/Miguelaeb))
+- Instagram - [@Miguel_aeb]([https://www.twitter.com/yourusername](https://instagram.com/miguel_aeb?igshid=YmMyMTA2M2Y=))
+- Frontend Mentor - [@@Miguelaeb]([https://www.frontendmentor.io/profile/yourusername](https://www.frontendmentor.io/profile/Miguelaeb))
