@@ -1,6 +1,6 @@
 # Decodificador de texto con JavaScript
 
-Esto es una solucion al challenge "Encriptador" propuesto por ![Alura Latam](https://www.aluracursos.com/)
+Esto es una solucion al challenge "Encriptador" propuesto por [Alura Latam](https://www.aluracursos.com/)
 
 ### Vista previa del proyecto
 
@@ -8,15 +8,15 @@ Esto es una solucion al challenge "Encriptador" propuesto por ![Alura Latam](htt
 
 ## Tecnologias utilizadas
 
-HTML
-CSS
+HTML <br>
+CSS <br>
 JavaScript
 
 ## Requisitos del challenge
 
-Funciona solo con letras minúsculas.
-No pueden ser utilizados letras con acentos ni caracteres especiales.
-Es posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
+Funciona solo con letras minúsculas. <br>
+No pueden ser utilizados letras con acentos ni caracteres especiales. <br>
+Es posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. <br>
 Cuenta con un botón que copia el texto encriptado/desencriptado.
 
 ## Autor
