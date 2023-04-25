@@ -8,16 +8,16 @@ Esto es una solucion al challenge "Encriptador" propuesto por [Alura Latam](http
 
 ## Tecnologias utilizadas
 
-HTML <br>
-CSS <br>
-JavaScript
+- HTML <br>
+- CSS <br>
+- JavaScript
 
 ## Requisitos 
 
-Funciona solo con letras minúsculas. <br>
-No pueden ser utilizados letras con acentos ni caracteres especiales. <br>
-Es posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. <br>
-Cuenta con un botón que copia el texto encriptado/desencriptado.
+- Funciona solo con letras minúsculas. <br>
+- No pueden ser utilizados letras con acentos ni caracteres especiales. <br>
+- Es posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original. <br>
+- Cuenta con un botón que copia el texto encriptado/desencriptado.
 
 ## Autor
 
