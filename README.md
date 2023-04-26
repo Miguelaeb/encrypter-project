@@ -8,7 +8,7 @@ Esto es una solucion al challenge "Encriptador" propuesto por [Alura Latam](http
 
 ### Deploy del sitio
 
-[Live url](https://miguelaeb.github.io/encrypter-project/)
+[Decodificador de texto Live URL](https://miguelaeb.github.io/encrypter-project/)
 
 ## Tecnologias utilizadas
 
@@ -26,8 +26,6 @@ Esto es una solucion al challenge "Encriptador" propuesto por [Alura Latam](http
 - La letra "o" es convertida para "ober" <br>
 - La letra "u" es convertida para "ufat"
 ```
-
-
 
 ## Requisitos 
 
